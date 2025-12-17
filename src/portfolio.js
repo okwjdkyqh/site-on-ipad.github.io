@@ -1,30 +1,49 @@
-const products = [
+const projects = [
   {
     title: "Проект 1",
-    description: "Описание проекта",
-    price: 100,
-    img: "https://via.placeholder.com/300"
+    description: "Короткое описание проекта",
+    img: "https://via.placeholder.com/400x250"
   },
   {
     title: "Проект 2",
-    description: "Описание проекта",
-    price: 200,
-    img: "https://via.placeholder.com/300"
+    description: "Короткое описание проекта",
+    img: "https://via.placeholder.com/400x250"
+  },
+  {
+    title: "Проект 3",
+    description: "Короткое описание проекта",
+    img: "https://via.placeholder.com/400x250"
+  },
+  {
+    title: "Проект 4",
+    description: "Короткое описание проекта",
+    img: "https://via.placeholder.com/400x250"
+  },
+  {
+    title: "Проект 5",
+    description: "Короткое описание проекта",
+    img: "https://via.placeholder.com/400x250"
+  },
+  {
+    title: "Проект 6",
+    description: "Короткое описание проекта",
+    img: "https://via.placeholder.com/400x250"
   }
 ];
 
+
 const container = document.getElementById("products");
 
-products.forEach(product => {
+projects.forEach(project => {
   const col = document.createElement("div");
   col.className = "col-md-4 mb-4";
 
   col.innerHTML = `
     <div class="card shadow-sm h-100">
-      <img src="${product.img}" class="card-img-top">
+      <img src="${project.img}" class="card-img-top" alt="${project.title}">
       <div class="card-body d-flex flex-column">
-        <h5 class="card-title">${product.title}</h5>
-        <p class="card-text">${product.description}</p>
+        <h5 class="card-title">${project.title}</h5>
+        <p class="card-text">${project.description}</p>
 
         <div class="mt-auto">
           <label class="form-label">Количество</label>
