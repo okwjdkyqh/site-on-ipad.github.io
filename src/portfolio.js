@@ -39,7 +39,7 @@ projects.forEach(project => {
   col.className = "col-md-4 mb-4";
 
   col.innerHTML = `
-    <div class="card shadow-sm h-100">
+  <div class="card bg-white text-dark shadow-sm h-100">
       <img src="${project.img}" class="card-img-top" alt="${project.title}">
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">${project.title}</h5>
