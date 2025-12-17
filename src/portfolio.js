@@ -1,33 +1,33 @@
 const projects = [
   {
-    title: "какой-то портрет",
-    description: "девочки из пинтереста",
+    title: "пример: портрет",
+    description: "представлен пример работы портрета какой-то девочки из пинтереста",
     img: "images/lol.png"
   },
   {
-    title: "осеннее меню",
-    description: "для кофейни.",
+    title: "осеннее (или любое другое) меню",
+    description: "например, это было сделано для кофейни.",
     img: "images/menufirst.jpeg"
   },
   {
-    title: "Проект 3",
-    description: "Короткое описание проекта",
-    img: "https://via.placeholder.com/400x250"
+    title: "диджитал-продукт",
+    description: "иконки для айпада",
+    img: "images/fun.jpeg"
   },
   {
-    title: "Проект 4",
-    description: "Короткое описание проекта",
-    img: "https://via.placeholder.com/400x250"
+    title: "брошюра",
+    description: "билет в кино на Хэллоуин, для той же кофейни",
+    img: "CAT TICKET.png"
   },
   {
-    title: "Проект 5",
-    description: "Короткое описание проекта",
-    img: "https://via.placeholder.com/400x250"
+    title: "стикеры",
+    description: "позже будут распечатаны как 3д стикеры!",
+    img: "sticker.png"
   },
   {
-    title: "Проект 6",
-    description: "Короткое описание проекта",
-    img: "https://via.placeholder.com/400x250"
+    title: "сумочка-брелок в виде фрукта из шерсти",
+    description: "мандарин-брелок (для наушников и, как оказалось, в нем удобно носить мандарины) по технике мокрого валяния",
+    img: "ididit.png"
   }
 ];
 
