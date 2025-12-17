@@ -150,7 +150,11 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">отправить сообщение</h5>
-                            <form method="get" action="">
+                            <form
+                            action="https://www.google.com/search"
+                            method="get"
+                            target="_blank"
+                            >
                                 <div class="mb-3">
                                     <input type="text" class="form-control" placeholder="Ваше имя">
                                 </div>
@@ -162,9 +166,9 @@
                                 <div class="mb-3">
                                     <input type="number" class="form-control" name="age" value="18"></div>
                                 <div class="mb-3">
-                                    <textarea class="form-control" rows="4" placeholder="что такое?"></textarea>
+                                    <textarea class="form-control" rows="4" name="q" placeholder="что такое?"></textarea>
                                 </div>
-                                <div class="mb-3"> <label class="form-label">Тип сообщения</label>
+                                <div class="mb-3"> <label class="form-label">тип сообщения</label>
                                     <div class="form-check">
                                         <input
                                         class="form-check-input"
@@ -173,7 +177,7 @@
                                         value="question"
                                         checked
                                         >
-                                        <label class="form-check-label">Вопрос</label>
+                                        <label class="form-check-label">вопрос</label>
                                     </div>
                                     <div class="form-check">
                                         <input
@@ -182,7 +186,7 @@
                                         name="message_type"
                                         value="feedback"
                                         >
-                                        <label class="form-check-label">Отзыв</label>
+                                        <label class="form-check-label">отзыв</label>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary">отправить</button>
