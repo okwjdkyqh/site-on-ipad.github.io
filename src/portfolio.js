@@ -48,6 +48,12 @@ projects.forEach(project => {
         <div class="mt-auto">
           <label class="form-label">Количество</label>
           <input type="number" class="form-control" value="0" min="0">
+          <button 
+          class="btn btn-outline-dark w-100"
+          disabled
+        >
+          добавить в корзину
+        </button>
         </div>
       </div>
     </div>
