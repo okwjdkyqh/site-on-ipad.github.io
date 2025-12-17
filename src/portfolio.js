@@ -47,7 +47,7 @@ projects.forEach(project => {
 
         <div class="mt-auto">
           <label class="form-label">Количество</label>
-          <input type="number" class="form-control" value="1" min="1">
+          <input type="number" class="form-control" value="0" min="0">
         </div>
       </div>
     </div>
