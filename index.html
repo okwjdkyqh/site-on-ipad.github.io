@@ -158,7 +158,32 @@
                                     <input type="email" class="form-control" placeholder="Ваш email">
                                 </div>
                                 <div class="mb-3">
+                                    
+                                <div class="mb-3">
+                                    <input type="number" class="form-control" name="age" value="18"></div>
+                                <div class="mb-3">
                                     <textarea class="form-control" rows="4" placeholder="что такое?"></textarea>
+                                </div>
+                                <div class="mb-3"> <label class="form-label">Тип сообщения</label>
+                                    <div class="form-check">
+                                        <input
+                                        class="form-check-input"
+                                        type="radio"
+                                        name="message_type"
+                                        value="question"
+                                        checked
+                                        >
+                                        <label class="form-check-label">Вопрос</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input
+                                        class="form-check-input"
+                                        type="radio"
+                                        name="message_type"
+                                        value="feedback"
+                                        >
+                                        <label class="form-check-label">Отзыв</label>
+                                    </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary">отправить</button>
                             </form>
