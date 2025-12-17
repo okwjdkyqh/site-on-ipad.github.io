@@ -17,17 +17,17 @@ const projects = [
   {
     title: "брошюра",
     description: "билет в кино на Хэллоуин, для той же кофейни",
-    img: "CAT TICKET.png"
+    img: "images/CAT TICKET.png"
   },
   {
     title: "стикеры",
     description: "позже будут распечатаны как 3д стикеры!",
-    img: "sticker.png"
+    img: "images/sticker.png"
   },
   {
     title: "сумочка-брелок в виде фрукта из шерсти",
     description: "мандарин-брелок (для наушников и, как оказалось, в нем удобно носить мандарины) по технике мокрого валяния",
-    img: "ididit.jpeg"
+    img: "images/ididit.jpeg"
   }
 ];
 
