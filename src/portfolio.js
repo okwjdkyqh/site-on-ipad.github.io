@@ -1,13 +1,13 @@
 const projects = [
   {
-    title: "Проект 1",
-    description: "Короткое описание проекта",
-    img: "https://via.placeholder.com/400x250"
+    title: "какой-то портрет",
+    description: "девочки из пинтереста",
+    img: "images/lol.png"
   },
   {
-    title: "Проект 2",
-    description: "Короткое описание проекта",
-    img: "https://via.placeholder.com/400x250"
+    title: "осеннее меню",
+    description: "для кофейни.",
+    img: "images/menufirst.jpeg"
   },
   {
     title: "Проект 3",
